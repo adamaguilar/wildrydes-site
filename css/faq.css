@@ -20,7 +20,8 @@ dl.faq .desc {
   padding: 0.5em;
   font-size: 110%;
   display: none;
-  background-color: #fffedb;
+  background-color: #e4ff6d;
+  background-image: linear-gradient(319deg, #e4ff6d 0%, #ffad42 37%, #e4ff6d 100%);
 }
 
 dl.faq button:hover,
@@ -38,14 +39,4 @@ dl.faq button:hover {
 
 dl.faq button:active {
   background-color: #bbb;
-}
-
-dl.faq button[aria-expanded="false"]::before {
-  content: url('../images/right-arrow-brown.png');
-  padding-right: 0.35em;
-}
-
-dl.faq button[aria-expanded="true"]::before {
-  content: url('../images/down-arrow-brown.png');
-  padding-right: 0.35em;
 }
